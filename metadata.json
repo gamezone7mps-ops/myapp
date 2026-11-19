@@ -1,0 +1,6 @@
+{
+  "name": "LifeOS",
+  "description": "Offline-first personal life-management system for tasks, Jalali and Gregorian calendar, smart memory, documents, insights, and controlled AI assistance.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

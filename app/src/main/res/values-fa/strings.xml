@@ -1,0 +1,347 @@
+<resources>
+    <string name="app_name">LifeOS</string>
+
+    <!-- Navigation Destinations -->
+    <string name="nav_dashboard">داشبورد</string>
+    <string name="nav_tasks">کارها</string>
+    <string name="nav_calendar">تقویم</string>
+    <string name="nav_memory">حافظه هوشمند</string>
+    <string name="nav_documents">اسناد</string>
+    <string name="nav_insights">تحلیل‌ها</string>
+    <string name="nav_assistant">دستیار هوشمند</string>
+    <string name="nav_settings">تنظیمات</string>
+    <string name="nav_more">بخش‌ها</string>
+
+    <!-- Accessibility Content Descriptions -->
+    <string name="cd_open_settings">باز کردن تنظیمات و پروفایل</string>
+    <string name="cd_navigate_back">بازگشت</string>
+    <string name="cd_module_icon">نماد بخش %1$s</string>
+    <string name="cd_offline_badge">ذخیره‌سازی محلی آفلاین فعال است</string>
+    <string name="cd_calendar_system_chip">تقویم نمایش فعلی: %1$s</string>
+    <string name="cd_add_task">افزودن کار جدید</string>
+    <string name="cd_add_event">افزودن رویداد جدید</string>
+    <string name="cd_add_memory">افزودن مورد جدید به حافظه</string>
+    <string name="cd_toggle_task">تغییر وضعیت انجام %1$s</string>
+    <string name="cd_edit_item">ویرایش %1$s</string>
+    <string name="cd_delete_item">حذف %1$s</string>
+    <string name="cd_pin_memory">سنجاق کردن %1$s</string>
+    <string name="cd_previous_period">قبلی</string>
+    <string name="cd_next_period">بعدی</string>
+    <string name="cd_clear_search">پاک کردن جستجو</string>
+
+    <!-- Common Actions & Dialogs -->
+    <string name="action_save">ذخیره</string>
+    <string name="action_cancel">انصراف</string>
+    <string name="action_delete">حذف</string>
+    <string name="action_edit">ویرایش</string>
+    <string name="action_archive">بایگانی</string>
+    <string name="action_restore">بازیابی</string>
+    <string name="action_confirm">تایید</string>
+    <string name="action_retry">تلاش مجدد</string>
+    <string name="action_clear">پاک کردن</string>
+    <string name="action_today">امروز</string>
+    <string name="action_open_link">باز کردن پیوند</string>
+    <string name="action_back_to_dashboard">بازگشت به داشبورد</string>
+    <string name="action_open_settings">باز کردن تنظیمات</string>
+    <string name="action_close">بستن</string>
+    <string name="action_grant_notification_permission">اجازه ارسال اعلان</string>
+    <string name="action_open_notification_settings">تنظیمات اعلان دستگاه</string>
+    <string name="confirm_delete_title">تایید حذف</string>
+    <string name="confirm_delete_body">آیا مطمئن هستید که می‌خواهید «%1$s» را از فضای کاری فعال حذف کنید؟</string>
+
+    <!-- Top Bar & Status -->
+    <string name="status_offline_ready">ذخیره‌سازی محلی و آفلاین</string>
+    <string name="status_phase_label">آماده آفلاین</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_greeting_morning">صبح بخیر</string>
+    <string name="dashboard_greeting_afternoon">ظهر بخیر</string>
+    <string name="dashboard_greeting_evening">عصر بخیر</string>
+    <string name="dashboard_subtitle">سامانه مدیریت شخصی شما؛ یکپارچه، محلی و همیشه در دسترس.</string>
+    <string name="dashboard_timezone_label">منطقه زمانی: %1$s</string>
+    <string name="dashboard_quick_actions">ثبت سریع</string>
+    <string name="dashboard_quick_add_task">کار جدید</string>
+    <string name="dashboard_quick_add_event">رویداد جدید</string>
+    <string name="dashboard_quick_add_memory">یادداشت جدید</string>
+    <string name="dashboard_due_tasks_section">کارهای پیش‌رو و مهم</string>
+    <string name="dashboard_upcoming_events_section">رویدادهای امروز و آینده</string>
+    <string name="dashboard_pinned_memories_section">یادداشت‌های سنجاق‌شده</string>
+    <string name="dashboard_storage_section">خلاصه پایگاه داده محلی</string>
+    <string name="dashboard_modules_section">ماژول‌های کاری</string>
+    <string name="dashboard_empty_title">فضای امروز خلوت است</string>
+    <string name="dashboard_empty_body">هنوز کار یا رویدادی برای امروز ثبت نشده است. از دکمه‌های ثبت سریع بالا برای افزودن اولین مورد استفاده کنید.</string>
+    <string name="dashboard_see_all">مشاهده همه</string>
+    <string name="count_tasks_label">کارهای فعال</string>
+    <string name="count_events_label">رویدادها</string>
+    <string name="count_memories_label">یادداشت‌ها</string>
+    <string name="count_documents_label">اسناد</string>
+
+    <!-- Tasks -->
+    <string name="tasks_search_hint">جستجو در عنوان یا دسته‌بندی کارها…</string>
+    <string name="tasks_filter_active">فعال</string>
+    <string name="tasks_filter_completed">انجام‌شده</string>
+    <string name="tasks_filter_archived">بایگانی</string>
+    <string name="tasks_filter_all">همه</string>
+    <string name="tasks_sort_due">مرتب‌سازی: سررسید</string>
+    <string name="tasks_sort_priority">مرتب‌سازی: اولویت</string>
+    <string name="tasks_sort_updated">مرتب‌سازی: آخرین تغییر</string>
+    <string name="tasks_empty_title">کاری در این نما وجود ندارد</string>
+    <string name="tasks_empty_body">برای ثبت کار جدید با اولویت، تاریخ سررسید، دسته‌بندی یا تکرار، دکمه + را بزنید.</string>
+    <string name="tasks_editor_new">کار جدید</string>
+    <string name="tasks_editor_edit">ویرایش کار</string>
+    <string name="tasks_field_title">عنوان کار</string>
+    <string name="tasks_field_description">توضیحات (اختیاری)</string>
+    <string name="tasks_field_category">دسته‌بندی (اختیاری)</string>
+    <string name="tasks_field_priority">اولویت</string>
+    <string name="tasks_field_status">وضعیت</string>
+    <string name="tasks_field_due_date">تاریخ و ساعت سررسید</string>
+    <string name="tasks_field_no_due_date">بدون تاریخ سررسید</string>
+    <string name="tasks_field_recurrence">تکرار</string>
+    <string name="tasks_overdue_badge">عقب‌افتاده</string>
+    <string name="priority_low">کم</string>
+    <string name="priority_medium">متوسط</string>
+    <string name="priority_high">زیاد</string>
+    <string name="priority_urgent">فوری</string>
+    <string name="status_todo">در انتظار</string>
+    <string name="status_in_progress">در حال انجام</string>
+    <string name="status_completed">انجام‌شده</string>
+    <string name="status_archived">بایگانی‌شده</string>
+    <string name="recurrence_none">بدون تکرار</string>
+    <string name="recurrence_daily">روزانه</string>
+    <string name="recurrence_weekly">هفتگی</string>
+    <string name="recurrence_monthly">ماهانه</string>
+    <string name="tasks_validation_title_required">لطفاً عنوان کار را وارد کنید.</string>
+    <string name="tasks_msg_next_occurrence">کار تکمیل شد و نوبت بعدی زمان‌بندی گردید.</string>
+
+    <!-- Calendar -->
+    <string name="calendar_view_month">ماه</string>
+    <string name="calendar_view_week">هفته</string>
+    <string name="calendar_view_day">روز</string>
+    <string name="calendar_empty_day_title">رویدادی در این روز ثبت نشده</string>
+    <string name="calendar_empty_day_body">برای ثبت رویداد در این تاریخ، دکمه + را بزنید.</string>
+    <string name="calendar_all_day">تمام روز</string>
+    <string name="calendar_editor_new">رویداد جدید</string>
+    <string name="calendar_editor_edit">ویرایش رویداد</string>
+    <string name="calendar_field_title">عنوان رویداد</string>
+    <string name="calendar_field_description">توضیحات (اختیاری)</string>
+    <string name="calendar_field_location">مکان (اختیاری)</string>
+    <string name="calendar_field_all_day">رویداد تمام‌روز</string>
+    <string name="calendar_field_start">شروع</string>
+    <string name="calendar_field_end">پایان</string>
+    <string name="calendar_field_timezone">منطقه زمانی: %1$s</string>
+    <string name="calendar_field_reminder">تنظیم یادآور</string>
+    <string name="calendar_reminder_note">یادآورها در صورت فعال‌بودن مجوز اعلان، به‌صورت محلی با WorkManager زمان‌بندی می‌شوند.</string>
+    <string name="reminder_none">بدون یادآور</string>
+    <string name="reminder_at_time">هنگام شروع رویداد</string>
+    <string name="reminder_at_due_time">دقیقاً در زمان سررسید</string>
+    <string name="reminder_10_min">۱۰ دقیقه قبل</string>
+    <string name="reminder_30_min">۳۰ دقیقه قبل</string>
+    <string name="reminder_1_hour">۱ ساعت قبل</string>
+    <string name="reminder_1_day">۱ روز قبل</string>
+    <string name="reminder_pref_disabled_hint">یادآورها در تنظیمات غیرفعال هستند. برای دریافت هشدار، آن‌ها را فعال کنید.</string>
+    <string name="reminder_permission_needed_hint">برای نمایش این یادآور، مجوز ارسال اعلان مورد نیاز است.</string>
+    <string name="reminder_system_disabled_hint">اعلان‌های این برنامه در تنظیمات سیستم غیرفعال است.</string>
+    <string name="calendar_validation_title_required">لطفاً عنوان رویداد را وارد کنید.</string>
+    <string name="calendar_validation_end_before_start">زمان پایان نمی‌تواند قبل از زمان شروع باشد.</string>
+    <string name="picker_select_date">انتخاب تاریخ (%1$s)</string>
+    <string name="picker_select_time">انتخاب ساعت</string>
+    <string name="picker_hour">ساعت</string>
+    <string name="picker_minute">دقیقه</string>
+
+    <!-- Smart Memory -->
+    <string name="memory_search_hint">جستجو در یادداشت‌ها، متن یا برچسب‌ها…</string>
+    <string name="memory_filter_all">همه</string>
+    <string name="memory_type_note">یادداشت</string>
+    <string name="memory_type_idea">ایده</string>
+    <string name="memory_type_link">پیوند</string>
+    <string name="memory_type_fact">نکته</string>
+    <string name="memory_type_reference">مرجع</string>
+    <string name="memory_empty_title">هنوز موردی ذخیره نشده است</string>
+    <string name="memory_empty_body">یادداشت‌ها، ایده‌ها، پیوندها و نکاتی را که می‌خواهید بعداً بازیابی کنید ذخیره کنید. برنامه تنها مواردی را به یاد دارد که خودتان ثبت کرده‌اید.</string>
+    <string name="memory_editor_new">ثبت در حافظه</string>
+    <string name="memory_editor_edit">ویرایش مورد حافظه</string>
+    <string name="memory_field_title">عنوان</string>
+    <string name="memory_field_content">متن و جزئیات</string>
+    <string name="memory_field_type">نوع</string>
+    <string name="memory_field_tags">برچسب‌ها (جداشده با ویرگول)</string>
+    <string name="memory_field_url">پیوند منبع (اختیاری)</string>
+    <string name="memory_field_pinned">سنجاق به بالا</string>
+    <string name="memory_validation_title_or_content">لطفاً عنوان یا متن یادداشت را وارد کنید.</string>
+    <string name="memory_validation_invalid_url">لطفاً یک پیوند معتبر با http:// یا https:// وارد کنید.</string>
+
+    <!-- Insights -->
+    <string name="insights_empty_title">داده کافی برای تحلیل ثبت نشده</string>
+    <string name="insights_empty_body">تحلیل‌ها دقیقاً از کارها، رویدادها، یادداشت‌ها و اسناد واقعی شما محاسبه می‌شوند و هیچ آمار ساختگی نمایش داده نمی‌شود.</string>
+    <string name="insights_task_summary_title">عملکرد و بار کاری</string>
+    <string name="insights_completion_rate">نرخ تکمیل: %1$s٪</string>
+    <string name="insights_total_tasks">کل کارها</string>
+    <string name="insights_completed_tasks">تکمیل‌شده</string>
+    <string name="insights_pending_tasks">در جریان</string>
+    <string name="insights_overdue_tasks">عقب‌افتاده</string>
+    <string name="insights_priority_breakdown">توزیع اولویت کارهای فعال</string>
+    <string name="insights_upcoming_7days">برنامه ۷ روز آینده</string>
+    <string name="insights_upcoming_events_count">%1$s رویداد</string>
+    <string name="insights_upcoming_tasks_count">%1$s کار سررسیددار</string>
+    <string name="insights_knowledge_title">وضعیت حافظه و بایگانی</string>
+    <string name="insights_data_honesty_note">تمامی ارقام بالا مستقیماً از پایگاه داده محلی Room محاسبه شده‌اند.</string>
+
+    <!-- Workspace Hub (More) -->
+    <string name="hub_title">مرکز بخش‌ها</string>
+    <string name="hub_subtitle">تمامی هشت بخش LifeOS در یک ساختار یکپارچه</string>
+    <string name="hub_section_secondary">دانش، تحلیل و هوش مصنوعی</string>
+    <string name="hub_section_system">تنظیمات و حساب کاربری</string>
+
+    <!-- Module Descriptions & Foundation States -->
+    <string name="desc_tasks">مدیریت کارها، اولویت‌ها، دسته‌بندی و ماندگاری محلی</string>
+    <string name="desc_calendar">نمای روز، هفته و ماه با پشتیبانی دقیق تقویم شمسی و میلادی</string>
+    <string name="desc_memory">ثبت یادداشت، ایده، لینک و نکات با جستجوی سریع محلی</string>
+    <string name="desc_documents">بایگانی اسناد آفلاین با تفکیک اطلاعات تاییدشده و استخراج‌شده</string>
+    <string name="desc_insights">گزارش‌های واقعی بر پایه داده‌های ذخیره‌شده بدون آمار ساختگی</string>
+    <string name="desc_assistant">دستیار جمنای با پیش‌نمایش و تایید کاربر پیش از هر تغییر</string>
+    <string name="desc_settings">زبان، پوسته، نوع تقویم، اعلان‌ها و کنترل‌های حریم خصوصی</string>
+
+    <string name="phase_pending_badge_phase3">فاز ۳</string>
+    <string name="phase_pending_badge_phase4">فاز ۴</string>
+    <string name="module_foundation_title">زیرساخت %1$s آماده است</string>
+    <string name="module_foundation_db_count">تعداد رکوردهای ذخیره‌شده محلی: %1$d</string>
+    <string name="module_foundation_body_phase3">ساختار متادیتای فایل‌های محلی و یادآورها برای بخش %1$s آماده شده است. ورود فایل و زمان‌بندی در فاز ۳ فعال می‌شود.</string>
+    <string name="module_foundation_body_phase4">ساختار ابزارهای کنترل‌شده و پیش‌نمایش تایید برای %1$s آماده است. اتصال امن جمنای در فاز ۴ فعال می‌شود.</string>
+
+    <!-- Documents -->
+    <string name="documents_import_photo">افزودن تصویر</string>
+    <string name="documents_import_file">افزودن فایل</string>
+    <string name="documents_search_hint">جستجو در اسناد، یادداشت‌ها یا برچسب‌ها…</string>
+    <string name="documents_filter_all">همه</string>
+    <string name="documents_filter_images">تصاویر</string>
+    <string name="documents_filter_pdf">PDF</string>
+    <string name="documents_filter_other">متنی و سایر</string>
+    <string name="documents_sort_updated">آخرین ویرایش</string>
+    <string name="documents_sort_date">تاریخ سند</string>
+    <string name="documents_sort_title">بر اساس عنوان</string>
+    <string name="documents_empty_title">بایگانی اسناد آفلاین خالی است</string>
+    <string name="documents_empty_body">تصاویر را با انتخابگر امن اندروید یا فایل‌های PDF، متنی و ورد را در حافظه خصوصی برنامه ذخیره کنید. یادداشت‌های تاییدشده شما کاملاً از نتایج استخراج خودکار جدا هستند.</string>
+    <string name="documents_editor_new">ذخیره سند واردشده</string>
+    <string name="documents_editor_edit">ویرایش اطلاعات سند</string>
+    <string name="documents_field_title">عنوان سند</string>
+    <string name="documents_field_date">تاریخ سند</string>
+    <string name="documents_field_no_date">بدون تاریخ</string>
+    <string name="documents_field_tags">برچسب‌ها (جداشده با ویرگول)</string>
+    <string name="documents_field_verified_notes">یادداشت‌های تاییدشده کاربر (اختیاری)</string>
+    <string name="documents_validation_title_required">لطفاً عنوان سند را وارد کنید.</string>
+    <string name="documents_extraction_honesty_note">خلاصه‌های استخراج‌شده توسط OCR یا هوش مصنوعی جدا از یادداشت‌های تاییدشده شما نگهداری می‌شوند و بدون اجرای واقعی تحلیل، تکمیل‌شده نمایش داده نمی‌شوند.</string>
+    <string name="documents_detail_date_label">تاریخ سند: %1$s</string>
+    <string name="documents_file_missing_error">فایل محلی در حافظه داخلی برنامه یافت نشد.</string>
+    <string name="documents_empty_text_file">این فایل متنی خالی است.</string>
+    <string name="documents_section_verified_notes">یادداشت‌های تاییدشده کاربر</string>
+    <string name="documents_no_verified_notes">هنوز یادداشت تاییدشده‌ای ثبت نشده است.</string>
+    <string name="documents_section_extracted_info">استخراج خودکار و OCR</string>
+    <string name="documents_status_not_analyzed">هنوز تحلیل نشده</string>
+    <string name="documents_status_analyzed_unverified">خلاصه استخراج‌شده (نیازمند بررسی)</string>
+    <string name="documents_status_analysis_failed">تحلیل ناموفق</string>
+    <string name="documents_extraction_not_analyzed_body">هنوز هیچ پردازش استخراج متن یا خلاصه‌سازی روی این سند انجام نشده است. فقط اطلاعات تاییدشده توسط خودتان ذخیره شده است.</string>
+    <string name="documents_extraction_empty_result">تحلیل انجام شد اما متن خلاصه‌ای استخراج نگردید.</string>
+    <string name="documents_extraction_failed_body">تحلیل خودکار ناموفق بود؛ فایل اصلی و یادداشت‌های تاییدشده شما دست‌نخورده باقی مانده‌اند.</string>
+    <string name="documents_open_external">باز کردن با برنامه دیگر</string>
+    <string name="documents_msg_imported_saved">سند با موفقیت در بایگانی آفلاین ذخیره شد.</string>
+    <string name="documents_msg_updated">مشخصات سند به‌روزرسانی شد.</string>
+    <string name="documents_error_unsupported">نوع فایل پشتیبانی نمی‌شود. تصویر، PDF، متن، CSV، JSON یا فایل ورد انتخاب کنید.</string>
+    <string name="documents_error_unreadable">فایل انتخاب‌شده قابل خواندن نیست یا خالی است.</string>
+    <string name="documents_error_too_large">حجم فایل از سقف مجاز ۲۵ مگابایت بیشتر است.</string>
+    <string name="documents_error_copy_failed">کپی فایل به حافظه داخلی برنامه ناموفق بود.</string>
+    <string name="documents_error_no_viewer">برنامه‌ای روی دستگاه برای باز کردن این نوع فایل یافت نشد.</string>
+    <string name="documents_analyze_with_ai">تحلیل با جمنای</string>
+    <string name="documents_analyze_consent_required">برای تحلیل، رضایت هوش مصنوعی را فعال کنید</string>
+    <string name="documents_analyzing_progress">در حال تحلیل سند با جمنای…</string>
+    <string name="documents_msg_analyze_done">خلاصه استخراج‌شده جدا از یادداشت‌های تاییدشده ذخیره شد.</string>
+    <string name="documents_msg_analyze_consent_required">برای تحلیل سند، رضایت پردازش ابری را در تنظیمات یا دستیار فعال کنید.</string>
+    <string name="documents_msg_analyze_offline">تحلیل سند نیازمند اتصال فعال اینترنت است.</string>
+    <string name="documents_msg_analyze_unsupported">این قالب فایل هنوز برای تحلیل خودکار جمنای پشتیبانی نمی‌شود.</string>
+    <string name="documents_msg_analyze_too_large">حجم فایل از سقف ۱۸ مگابایت ارسال به هوش مصنوعی بیشتر است.</string>
+
+    <!-- AI Assistant -->
+    <string name="assistant_status_online">آنلاین · جمنای آماده</string>
+    <string name="assistant_status_offline">آفلاین</string>
+    <string name="assistant_consent_active">دسترسی هوش مصنوعی فعال</string>
+    <string name="assistant_consent_off">دسترسی هوش مصنوعی غیرفعال</string>
+    <string name="assistant_cd_refresh_status">بررسی وضعیت شبکه</string>
+    <string name="assistant_cd_clear_chat">پاک کردن گفتگو</string>
+    <string name="assistant_cd_send">ارسال پیام</string>
+    <string name="assistant_consent_title">نیازمند رضایت اشتراک‌گذاری با هوش مصنوعی</string>
+    <string name="assistant_consent_body">به‌صورت پیش‌فرض همه اطلاعات شما کاملاً آفلاین روی دستگاه می‌ماند. با فعال‌کردن دستیار جمنای، پیام‌های شما و موارد مرتبط یافت‌شده در کارها، رویدادها، یادداشت‌ها یا اسناد برای پاسخ‌گویی و ساخت پیش‌نمایش به جمنای ارسال می‌شوند.</string>
+    <string name="assistant_consent_enable_action">فعال‌سازی دستیار جمنای</string>
+    <string name="assistant_offline_banner_text">دستگاه آفلاین است. دستیار هوشمند نیازمند اینترنت است و هرگز پاسخ جعلی یا ساختگی تولید نمی‌کند.</string>
+    <string name="assistant_empty_title">گفتگو با دستیار هوشمند LifeOS</string>
+    <string name="assistant_empty_body">به زبان طبیعی کار یا رویداد بسازید یا در حافظه و اسناد خود جستجو کنید. هر تغییر پیش از ذخیره با پیش‌نمایش تایید از شما پرسیده می‌شود.</string>
+    <string name="assistant_sample_exam">فردا ساعت ۱۰ صبح امتحان دارم</string>
+    <string name="assistant_sample_tasks">کارهای مهم و در انتظار من چیست؟</string>
+    <string name="assistant_sample_memory">یادداشت کن: بکاپ سرور هر جمعه اجرا می‌شود</string>
+    <string name="assistant_input_hint">درخواست ثبت رویداد، کار یا جستجو بنویسید…</string>
+    <string name="assistant_input_hint_consent_needed">ابتدا رضایت هوش مصنوعی را در بالا فعال کنید…</string>
+    <string name="assistant_thinking_status">در حال پردازش و بررسی اطلاعات مرتبط فضای کاری…</string>
+    <string name="assistant_streaming_status">در حال دریافت پاسخ (%1$d کاراکتر)…</string>
+    <string name="assistant_referenced_items">منابع بررسی‌شده: %1$s</string>
+    <string name="assistant_proposal_create_task">پیش‌نمایش: ایجاد کار</string>
+    <string name="assistant_proposal_update_task">پیش‌نمایش: ویرایش کار</string>
+    <string name="assistant_proposal_create_event">پیش‌نمایش: ثبت رویداد</string>
+    <string name="assistant_proposal_update_event">پیش‌نمایش: ویرایش رویداد</string>
+    <string name="assistant_proposal_create_memory">پیش‌نمایش: ذخیره در حافظه</string>
+    <string name="assistant_proposal_target">مورد هدف</string>
+    <string name="assistant_action_confirm_save">تایید و ذخیره</string>
+    <string name="assistant_action_saving">در حال ذخیره…</string>
+    <string name="assistant_action_discard">صرف‌نظر</string>
+    <string name="assistant_proposal_saved">در فضای کاری شما ذخیره شد</string>
+    <string name="assistant_proposal_discarded">لغو شد — تغییری ذخیره نگردید</string>
+    <string name="assistant_error_consent_required">رضایت پردازش هوش مصنوعی خاموش است. برای اتصال به جمنای آن را فعال کنید.</string>
+    <string name="assistant_error_offline">در حالت آفلاین دسترسی به جمنای ممکن نیست. پس از اتصال اینترنت، تلاش مجدد را بزنید.</string>
+    <string name="assistant_error_timeout">درخواست پس از ۶۰ ثانیه منقضی شد. لطفاً اتصال را بررسی کرده و دوباره تلاش کنید.</string>
+    <string name="assistant_error_service">جمنای نتوانست این درخواست را تکمیل کند.</string>
+
+    <!-- Notifications -->
+    <string name="notification_channel_name">یادآور کارها و رویدادها</string>
+    <string name="notification_channel_desc">اعلان‌های محلی و آفلاین برای کارهای سررسیددار و رویدادهای تقویم.</string>
+    <string name="notification_task_title">یادآور کار: %1$s</string>
+    <string name="notification_task_body">سررسید: %1$s</string>
+    <string name="notification_event_title">رویداد پیش‌رو: %1$s</string>
+    <string name="notification_event_body">زمان شروع: %1$s</string>
+    <string name="notification_event_body_with_location">شروع: %1$s · %2$s</string>
+
+    <!-- Settings & Profile -->
+    <string name="settings_title">تنظیمات و پروفایل</string>
+    <string name="settings_section_language">زبان و جهت چیدمان</string>
+    <string name="settings_language_label">زبان برنامه</string>
+    <string name="settings_language_helper">تغییر زبان و جهت راست‌به‌چپ یا چپ‌به‌راست بلافاصله اعمال می‌شود و به تاریخ‌ها یا داده‌های ذخیره‌شده آسیبی نمی‌زند.</string>
+    <string name="language_persian">فارسی (راست‌به‌چپ)</string>
+    <string name="language_english">English (چپ‌به‌راست)</string>
+
+    <string name="settings_section_appearance">ظاهر برنامه</string>
+    <string name="settings_theme_label">حالت پوسته</string>
+    <string name="theme_system">مطابق سیستم</string>
+    <string name="theme_light">روشن</string>
+    <string name="theme_dark">تاریک</string>
+
+    <string name="settings_section_calendar">نمایش تقویم</string>
+    <string name="settings_calendar_label">تقویم نمایشی</string>
+    <string name="settings_calendar_helper">تمام زمان‌ها به صورت استاندارد UTC همراه با منطقه زمانی ذخیره می‌شوند. تغییر تقویم نمایشی هیچ تاریخ ذخیره‌شده‌ای را تغییر نمی‌دهد.</string>
+    <string name="calendar_jalali">هجری شمسی (Jalali)</string>
+    <string name="calendar_gregorian">میلادی (Gregorian)</string>
+    <string name="settings_preview_date_label">امروز در تقویم فعال: %1$s</string>
+
+    <string name="settings_section_notifications">یادآورها و اعلان‌ها</string>
+    <string name="settings_notifications_toggle">فعال‌سازی یادآورهای پس‌زمینه</string>
+    <string name="settings_notification_status_granted">مجوز اعلان فعال است</string>
+    <string name="settings_notification_status_permission_needed">مجوز ارسال اعلان هنوز صادر نشده است</string>
+    <string name="settings_notification_status_system_disabled">اعلان‌ها در تنظیمات سیستم غیرفعال است</string>
+    <string name="settings_notifications_helper">به‌صورت محلی با WorkManager زمان‌بندی شده و پس از راه‌اندازی مجدد یا تغییر منطقه زمانی بازیابی می‌شود. محدودیت‌های باتری سیستم می‌تواند بر زمان دقیق اعلان اثر بگذارد.</string>
+
+    <string name="settings_section_privacy">حریم خصوصی و حساب کاربری</string>
+    <string name="settings_local_account_title">پروفایل محلی آفلاین</string>
+    <string name="settings_local_account_body">تمامی اطلاعات شخصی شما فقط در Room SQLite همین دستگاه نگهداری می‌شود. همگام‌سازی ابری اختیاری و ورود با گوگل در فاز ۵ اضافه می‌شود.</string>
+    <string name="settings_ai_consent_label">پردازش هوش مصنوعی ابری</string>
+    <string name="settings_ai_consent_enabled">فعال — پیام‌ها و زمینه مرتبط می‌تواند به جمنای ارسال شود</string>
+    <string name="settings_ai_consent_disabled">غیرفعال — هیچ داده‌ای از دستگاه خارج نمی‌شود</string>
+    <string name="settings_ai_consent_helper">تعیین می‌کند آیا پیام‌های دستیار، نتایج جستجوی محلی مرتبط و اسناد انتخاب‌شده توسط شما از طریق Firebase AI Logic به جمنای ارسال شوند یا خیر.</string>
+
+    <!-- Errors & Validation -->
+    <string name="error_generic_load">خطا در بارگذاری وضعیت محلی برنامه.</string>
+    <string name="error_save_failed">ذخیره‌سازی با خطا مواجه شد. لطفاً دوباره تلاش کنید.</string>
+</resources>

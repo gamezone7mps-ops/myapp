@@ -1,0 +1,347 @@
+<resources>
+    <string name="app_name">LifeOS</string>
+
+    <!-- Navigation Destinations -->
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_tasks">Tasks</string>
+    <string name="nav_calendar">Calendar</string>
+    <string name="nav_memory">Memory</string>
+    <string name="nav_documents">Documents</string>
+    <string name="nav_insights">Insights</string>
+    <string name="nav_assistant">Assistant</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_more">Workspace</string>
+
+    <!-- Accessibility Content Descriptions -->
+    <string name="cd_open_settings">Open Settings and Profile</string>
+    <string name="cd_navigate_back">Navigate back</string>
+    <string name="cd_module_icon">Module icon for %1$s</string>
+    <string name="cd_offline_badge">Offline-first local storage active</string>
+    <string name="cd_calendar_system_chip">Current calendar system: %1$s</string>
+    <string name="cd_add_task">Add new task</string>
+    <string name="cd_add_event">Add new calendar event</string>
+    <string name="cd_add_memory">Add new memory entry</string>
+    <string name="cd_toggle_task">Toggle task completion for %1$s</string>
+    <string name="cd_edit_item">Edit %1$s</string>
+    <string name="cd_delete_item">Delete %1$s</string>
+    <string name="cd_pin_memory">Toggle pin for %1$s</string>
+    <string name="cd_previous_period">Previous</string>
+    <string name="cd_next_period">Next</string>
+    <string name="cd_clear_search">Clear search</string>
+
+    <!-- Common Actions & Dialogs -->
+    <string name="action_save">Save</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_archive">Archive</string>
+    <string name="action_restore">Restore</string>
+    <string name="action_confirm">Confirm</string>
+    <string name="action_retry">Retry</string>
+    <string name="action_clear">Clear</string>
+    <string name="action_today">Today</string>
+    <string name="action_open_link">Open link</string>
+    <string name="action_back_to_dashboard">Back to Dashboard</string>
+    <string name="action_open_settings">Open Settings</string>
+    <string name="action_close">Close</string>
+    <string name="action_grant_notification_permission">Allow Notifications</string>
+    <string name="action_open_notification_settings">Notification Settings</string>
+    <string name="confirm_delete_title">Confirm permanent removal</string>
+    <string name="confirm_delete_body">Are you sure you want to remove "%1$s"? This removes it from your active workspace.</string>
+
+    <!-- Top Bar & Status -->
+    <string name="status_offline_ready">Offline-First Local Storage</string>
+    <string name="status_phase_label">Offline Ready</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_greeting_morning">Good morning</string>
+    <string name="dashboard_greeting_afternoon">Good afternoon</string>
+    <string name="dashboard_greeting_evening">Good evening</string>
+    <string name="dashboard_subtitle">Your personal system, stored locally and ready offline.</string>
+    <string name="dashboard_timezone_label">Time zone: %1$s</string>
+    <string name="dashboard_quick_actions">Quick Capture</string>
+    <string name="dashboard_quick_add_task">New Task</string>
+    <string name="dashboard_quick_add_event">New Event</string>
+    <string name="dashboard_quick_add_memory">New Note</string>
+    <string name="dashboard_due_tasks_section">Due &amp; Priority Tasks</string>
+    <string name="dashboard_upcoming_events_section">Today &amp; Upcoming Events</string>
+    <string name="dashboard_pinned_memories_section">Pinned Memories</string>
+    <string name="dashboard_storage_section">Local Vault Overview</string>
+    <string name="dashboard_modules_section">Workspace Modules</string>
+    <string name="dashboard_empty_title">Clean Slate for Today</string>
+    <string name="dashboard_empty_body">No pending tasks or events are scheduled yet. Use Quick Capture above to add your first task, event, or memory.</string>
+    <string name="dashboard_see_all">View all</string>
+    <string name="count_tasks_label">Active Tasks</string>
+    <string name="count_events_label">Events</string>
+    <string name="count_memories_label">Memories</string>
+    <string name="count_documents_label">Documents</string>
+
+    <!-- Tasks -->
+    <string name="tasks_search_hint">Search tasks or categories…</string>
+    <string name="tasks_filter_active">Active</string>
+    <string name="tasks_filter_completed">Completed</string>
+    <string name="tasks_filter_archived">Archived</string>
+    <string name="tasks_filter_all">All</string>
+    <string name="tasks_sort_due">By Due Date</string>
+    <string name="tasks_sort_priority">By Priority</string>
+    <string name="tasks_sort_updated">Recently Updated</string>
+    <string name="tasks_empty_title">No tasks match this view</string>
+    <string name="tasks_empty_body">Tap + to add a task with priority, due date, category, or recurrence.</string>
+    <string name="tasks_editor_new">New Task</string>
+    <string name="tasks_editor_edit">Edit Task</string>
+    <string name="tasks_field_title">Task title</string>
+    <string name="tasks_field_description">Notes or details (optional)</string>
+    <string name="tasks_field_category">Category (optional)</string>
+    <string name="tasks_field_priority">Priority</string>
+    <string name="tasks_field_status">Status</string>
+    <string name="tasks_field_due_date">Due date</string>
+    <string name="tasks_field_no_due_date">No due date</string>
+    <string name="tasks_field_recurrence">Repeat</string>
+    <string name="tasks_overdue_badge">Overdue</string>
+    <string name="priority_low">Low</string>
+    <string name="priority_medium">Medium</string>
+    <string name="priority_high">High</string>
+    <string name="priority_urgent">Urgent</string>
+    <string name="status_todo">To Do</string>
+    <string name="status_in_progress">In Progress</string>
+    <string name="status_completed">Completed</string>
+    <string name="status_archived">Archived</string>
+    <string name="recurrence_none">Does not repeat</string>
+    <string name="recurrence_daily">Daily</string>
+    <string name="recurrence_weekly">Weekly</string>
+    <string name="recurrence_monthly">Monthly</string>
+    <string name="tasks_validation_title_required">Please enter a task title.</string>
+    <string name="tasks_msg_next_occurrence">Completed. Next recurring task scheduled.</string>
+
+    <!-- Calendar -->
+    <string name="calendar_view_month">Month</string>
+    <string name="calendar_view_week">Week</string>
+    <string name="calendar_view_day">Day</string>
+    <string name="calendar_empty_day_title">No events on this day</string>
+    <string name="calendar_empty_day_body">Tap + to schedule an event on the selected date.</string>
+    <string name="calendar_all_day">All day</string>
+    <string name="calendar_editor_new">New Event</string>
+    <string name="calendar_editor_edit">Edit Event</string>
+    <string name="calendar_field_title">Event title</string>
+    <string name="calendar_field_description">Description (optional)</string>
+    <string name="calendar_field_location">Location (optional)</string>
+    <string name="calendar_field_all_day">All-day event</string>
+    <string name="calendar_field_start">Start</string>
+    <string name="calendar_field_end">End</string>
+    <string name="calendar_field_timezone">Time zone: %1$s</string>
+    <string name="calendar_field_reminder">Reminder</string>
+    <string name="calendar_reminder_note">Reminders are scheduled locally via Android WorkManager when notifications are allowed.</string>
+    <string name="reminder_none">No reminder</string>
+    <string name="reminder_at_time">At event time</string>
+    <string name="reminder_at_due_time">At due time</string>
+    <string name="reminder_10_min">10 minutes before</string>
+    <string name="reminder_30_min">30 minutes before</string>
+    <string name="reminder_1_hour">1 hour before</string>
+    <string name="reminder_1_day">1 day before</string>
+    <string name="reminder_pref_disabled_hint">Reminders are currently turned off in Settings. Enable them there to receive alerts.</string>
+    <string name="reminder_permission_needed_hint">Notification permission is required so LifeOS can deliver this reminder.</string>
+    <string name="reminder_system_disabled_hint">System notifications are turned off for LifeOS. Re-enable them in Android Notification Settings.</string>
+    <string name="calendar_validation_title_required">Please enter an event title.</string>
+    <string name="calendar_validation_end_before_start">End time cannot be earlier than start time.</string>
+    <string name="picker_select_date">Select Date (%1$s)</string>
+    <string name="picker_select_time">Select Time</string>
+    <string name="picker_hour">Hour</string>
+    <string name="picker_minute">Minute</string>
+
+    <!-- Smart Memory -->
+    <string name="memory_search_hint">Search memories, content, or tags…</string>
+    <string name="memory_filter_all">All</string>
+    <string name="memory_type_note">Note</string>
+    <string name="memory_type_idea">Idea</string>
+    <string name="memory_type_link">Link</string>
+    <string name="memory_type_fact">Fact</string>
+    <string name="memory_type_reference">Reference</string>
+    <string name="memory_empty_title">Nothing saved here yet</string>
+    <string name="memory_empty_body">Save notes, ideas, links, or facts you want to retrieve later. LifeOS only recalls what you explicitly save.</string>
+    <string name="memory_editor_new">New Memory</string>
+    <string name="memory_editor_edit">Edit Memory</string>
+    <string name="memory_field_title">Title</string>
+    <string name="memory_field_content">Content</string>
+    <string name="memory_field_type">Type</string>
+    <string name="memory_field_tags">Tags (comma-separated)</string>
+    <string name="memory_field_url">Source link (optional)</string>
+    <string name="memory_field_pinned">Pin to top</string>
+    <string name="memory_validation_title_or_content">Please enter a title or content to save.</string>
+    <string name="memory_validation_invalid_url">Please enter a valid http:// or https:// link.</string>
+
+    <!-- Insights -->
+    <string name="insights_empty_title">Not enough stored data yet</string>
+    <string name="insights_empty_body">Insights are computed strictly from your real tasks, events, memories, and documents—never fabricated. Add a few records to see summaries.</string>
+    <string name="insights_task_summary_title">Task Completion &amp; Workload</string>
+    <string name="insights_completion_rate">Completion rate: %1$s%%</string>
+    <string name="insights_total_tasks">Total recorded</string>
+    <string name="insights_completed_tasks">Completed</string>
+    <string name="insights_pending_tasks">Active</string>
+    <string name="insights_overdue_tasks">Overdue</string>
+    <string name="insights_priority_breakdown">Active Tasks by Priority</string>
+    <string name="insights_upcoming_7days">Next 7 Days Schedule</string>
+    <string name="insights_upcoming_events_count">%1$s events</string>
+    <string name="insights_upcoming_tasks_count">%1$s due tasks</string>
+    <string name="insights_knowledge_title">Memory &amp; Vault Summary</string>
+    <string name="insights_data_honesty_note">All figures above are computed directly from your local Room database.</string>
+
+    <!-- Workspace Hub (More) -->
+    <string name="hub_title">Workspace Hub</string>
+    <string name="hub_subtitle">All eight LifeOS modules in one connected system</string>
+    <string name="hub_section_secondary">Knowledge, Analytics &amp; Intelligence</string>
+    <string name="hub_section_system">Preferences &amp; Account</string>
+
+    <!-- Module Descriptions & Foundation States -->
+    <string name="desc_tasks">Tasks, priorities, categories, and reliable local persistence</string>
+    <string name="desc_calendar">Day, week, and month views with Jalali &amp; Gregorian display</string>
+    <string name="desc_memory">Notes, ideas, links, tags, and instant local retrieval</string>
+    <string name="desc_documents">Offline document vault with clear verified vs. extracted labels</string>
+    <string name="desc_insights">Honest summaries calculated strictly from stored records</string>
+    <string name="desc_assistant">Gemini assistant with preview-before-write confirmation</string>
+    <string name="desc_settings">Language, theme, calendar system, notifications, and privacy</string>
+
+    <string name="phase_pending_badge_phase3">Phase 3</string>
+    <string name="phase_pending_badge_phase4">Phase 4</string>
+    <string name="module_foundation_title">%1$s Foundation Ready</string>
+    <string name="module_foundation_db_count">Local records stored: %1$d</string>
+    <string name="module_foundation_body_phase3">Local file-metadata storage and reminder contracts for %1$s are initialized. Import and scheduling flows will be unlocked in Phase 3.</string>
+    <string name="module_foundation_body_phase4">Controlled tool schemas and confirmation boundaries for %1$s are prepared. Secure Gemini integration will be enabled in Phase 4.</string>
+
+    <!-- Documents -->
+    <string name="documents_import_photo">Import Photo</string>
+    <string name="documents_import_file">Import File</string>
+    <string name="documents_search_hint">Search documents, notes, or tags…</string>
+    <string name="documents_filter_all">All</string>
+    <string name="documents_filter_images">Images</string>
+    <string name="documents_filter_pdf">PDF</string>
+    <string name="documents_filter_other">Text &amp; Docs</string>
+    <string name="documents_sort_updated">Recently Updated</string>
+    <string name="documents_sort_date">Document Date</string>
+    <string name="documents_sort_title">By Title</string>
+    <string name="documents_empty_title">Your offline document vault is empty</string>
+    <string name="documents_empty_body">Import photos via Android Photo Picker or PDF/text/Word files into private local storage. User-verified notes remain strictly separated from automated extraction.</string>
+    <string name="documents_editor_new">Save Imported Document</string>
+    <string name="documents_editor_edit">Edit Document Details</string>
+    <string name="documents_field_title">Document title</string>
+    <string name="documents_field_date">Document date</string>
+    <string name="documents_field_no_date">No date set</string>
+    <string name="documents_field_tags">Tags (comma-separated)</string>
+    <string name="documents_field_verified_notes">User-verified notes (optional)</string>
+    <string name="documents_validation_title_required">Please enter a document title.</string>
+    <string name="documents_extraction_honesty_note">Extracted OCR or AI summaries are stored separately from your verified notes and are never marked complete unless analysis actually runs.</string>
+    <string name="documents_detail_date_label">Document date: %1$s</string>
+    <string name="documents_file_missing_error">Local file could not be found in app storage.</string>
+    <string name="documents_empty_text_file">This text file is empty.</string>
+    <string name="documents_section_verified_notes">User-Verified Notes</string>
+    <string name="documents_no_verified_notes">No user-verified notes recorded yet.</string>
+    <string name="documents_section_extracted_info">Automated Extraction &amp; OCR</string>
+    <string name="documents_status_not_analyzed">Not Analyzed Yet</string>
+    <string name="documents_status_analyzed_unverified">Extracted Summary (Unverified)</string>
+    <string name="documents_status_analysis_failed">Analysis Failed</string>
+    <string name="documents_extraction_not_analyzed_body">No automatic text extraction or AI summary has run on this file yet. Only verified information you enter above is stored.</string>
+    <string name="documents_extraction_empty_result">Analysis completed with no extracted summary text.</string>
+    <string name="documents_extraction_failed_body">Automated analysis failed; the original file and your verified notes are intact.</string>
+    <string name="documents_open_external">Open in Viewer</string>
+    <string name="documents_msg_imported_saved">Document saved locally in offline vault.</string>
+    <string name="documents_msg_updated">Document details updated.</string>
+    <string name="documents_error_unsupported">Unsupported file type. Choose an image, PDF, text, CSV, JSON, or Word file.</string>
+    <string name="documents_error_unreadable">Unable to read the selected file or it is empty.</string>
+    <string name="documents_error_too_large">File exceeds the 25 MB offline vault limit.</string>
+    <string name="documents_error_copy_failed">Failed to copy file into private local storage.</string>
+    <string name="documents_error_no_viewer">No installed app on this device can open this file type.</string>
+    <string name="documents_analyze_with_ai">Analyze with Gemini</string>
+    <string name="documents_analyze_consent_required">Enable AI Consent to Analyze</string>
+    <string name="documents_analyzing_progress">Analyzing document with Gemini…</string>
+    <string name="documents_msg_analyze_done">Extracted summary updated separately from verified notes.</string>
+    <string name="documents_msg_analyze_consent_required">Enable AI data consent in Settings or Assistant to analyze documents.</string>
+    <string name="documents_msg_analyze_offline">Document analysis requires an active internet connection.</string>
+    <string name="documents_msg_analyze_unsupported">This file format is not supported for automated Gemini analysis yet.</string>
+    <string name="documents_msg_analyze_too_large">File exceeds the 18 MB AI payload limit.</string>
+
+    <!-- AI Assistant -->
+    <string name="assistant_status_online">Online · Gemini Ready</string>
+    <string name="assistant_status_offline">Offline</string>
+    <string name="assistant_consent_active">AI Access Enabled</string>
+    <string name="assistant_consent_off">AI Access Off</string>
+    <string name="assistant_cd_refresh_status">Refresh network status</string>
+    <string name="assistant_cd_clear_chat">Clear conversation</string>
+    <string name="assistant_cd_send">Send message</string>
+    <string name="assistant_consent_title">AI Data-Sharing Consent Required</string>
+    <string name="assistant_consent_body">By default, your personal data stays strictly offline on this device. Enabling the Gemini Assistant allows your prompts and relevant matched local items (tasks, events, memories, or documents) to be sent to Gemini so it can answer questions and prepare previews before saving.</string>
+    <string name="assistant_consent_enable_action">Enable Gemini Assistant</string>
+    <string name="assistant_offline_banner_text">You are offline. Live AI assistance requires an internet connection—LifeOS never simulates or fakes AI replies.</string>
+    <string name="assistant_empty_title">Ask LifeOS or Plan Naturally</string>
+    <string name="assistant_empty_body">Describe a task, schedule an event, or search your saved memories and documents. Any workspace changes always show a preview for your confirmation first.</string>
+    <string name="assistant_sample_exam">I have an exam tomorrow at 10</string>
+    <string name="assistant_sample_tasks">What are my top pending tasks?</string>
+    <string name="assistant_sample_memory">Save a note: backup server runs every Friday</string>
+    <string name="assistant_input_hint">Ask to create an event, task, or search…</string>
+    <string name="assistant_input_hint_consent_needed">Enable AI consent above to chat…</string>
+    <string name="assistant_thinking_status">Thinking and checking relevant workspace records…</string>
+    <string name="assistant_streaming_status">Receiving response (%1$d chars)…</string>
+    <string name="assistant_referenced_items">Referenced context: %1$s</string>
+    <string name="assistant_proposal_create_task">Preview: Create Task</string>
+    <string name="assistant_proposal_update_task">Preview: Update Task</string>
+    <string name="assistant_proposal_create_event">Preview: Schedule Event</string>
+    <string name="assistant_proposal_update_event">Preview: Update Event</string>
+    <string name="assistant_proposal_create_memory">Preview: Save Memory</string>
+    <string name="assistant_proposal_target">Target Record</string>
+    <string name="assistant_action_confirm_save">Confirm &amp; Save</string>
+    <string name="assistant_action_saving">Saving…</string>
+    <string name="assistant_action_discard">Discard</string>
+    <string name="assistant_proposal_saved">Saved to your workspace</string>
+    <string name="assistant_proposal_discarded">Discarded — no changes saved</string>
+    <string name="assistant_error_consent_required">AI data-sharing consent is currently turned off. Enable it to connect with Gemini.</string>
+    <string name="assistant_error_offline">Cannot reach Gemini while offline. Connect to the internet and tap Retry.</string>
+    <string name="assistant_error_timeout">The AI request timed out after 60 seconds. Please check your connection and try again.</string>
+    <string name="assistant_error_service">Gemini could not complete this request.</string>
+
+    <!-- Notifications -->
+    <string name="notification_channel_name">Task &amp; Event Reminders</string>
+    <string name="notification_channel_desc">Local offline reminders scheduled for upcoming tasks and calendar events.</string>
+    <string name="notification_task_title">Task reminder: %1$s</string>
+    <string name="notification_task_body">Due %1$s</string>
+    <string name="notification_event_title">Upcoming event: %1$s</string>
+    <string name="notification_event_body">Starts %1$s</string>
+    <string name="notification_event_body_with_location">Starts %1$s · %2$s</string>
+
+    <!-- Settings & Profile -->
+    <string name="settings_title">Settings &amp; Profile</string>
+    <string name="settings_section_language">Language &amp; Direction</string>
+    <string name="settings_language_label">Application Language</string>
+    <string name="settings_language_helper">Changes interface language and RTL/LTR layout immediately without altering stored dates or data.</string>
+    <string name="language_persian">فارسی (Persian · RTL)</string>
+    <string name="language_english">English (LTR)</string>
+
+    <string name="settings_section_appearance">Appearance</string>
+    <string name="settings_theme_label">Theme Mode</string>
+    <string name="theme_system">System</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+
+    <string name="settings_section_calendar">Calendar Display</string>
+    <string name="settings_calendar_label">Display Calendar</string>
+    <string name="settings_calendar_helper">Dates are stored in standard UTC time with explicit time zones. Switching display calendars never modifies stored records.</string>
+    <string name="calendar_jalali">Jalali (Solar Hijri)</string>
+    <string name="calendar_gregorian">Gregorian</string>
+    <string name="settings_preview_date_label">Today in active calendar: %1$s</string>
+
+    <string name="settings_section_notifications">Reminders &amp; Notifications</string>
+    <string name="settings_notifications_toggle">Enable Background Reminders</string>
+    <string name="settings_notification_status_granted">Notification permission active</string>
+    <string name="settings_notification_status_permission_needed">Notification permission not granted yet</string>
+    <string name="settings_notification_status_system_disabled">Notifications disabled in system settings</string>
+    <string name="settings_notifications_helper">Scheduled locally via WorkManager and restored on reboot or timezone changes. Delivery timing can be affected by system Doze and battery restrictions.</string>
+
+    <string name="settings_section_privacy">Privacy &amp; Account</string>
+    <string name="settings_local_account_title">Local Offline Profile</string>
+    <string name="settings_local_account_body">All personal records stay on this device in Room SQLite. Optional cloud sync and Google Sign-In will be added in Phase 5.</string>
+    <string name="settings_ai_consent_label">External AI Processing</string>
+    <string name="settings_ai_consent_enabled">Enabled — prompts and matched context can use Gemini</string>
+    <string name="settings_ai_consent_disabled">Disabled — no local data leaves your device</string>
+    <string name="settings_ai_consent_helper">Controls whether LifeOS may send your assistant messages, matched local search items, or explicitly selected documents to Gemini via Firebase AI Logic.</string>
+
+    <!-- Errors & Validation -->
+    <string name="error_generic_load">Unable to load local workspace state.</string>
+    <string name="error_save_failed">Failed to save changes locally. Please try again.</string>
+</resources>
